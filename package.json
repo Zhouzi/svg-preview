@@ -9,6 +9,9 @@
   },
   "files": [
     "index.js",
+    "readSvgs.js",
+    "render.js",
+    "serveSvgs.js",
     "index.pug",
     "package.json",
     "README.md",
