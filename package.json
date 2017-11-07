@@ -1,0 +1,33 @@
+{
+  "name": "svg-preview",
+  "version": "0.0.1",
+  "description": "Opens a browser to preview SVG files.",
+  "author": "Gabin Aureche <hello@gabinaureche.com>",
+  "license": "MIT",
+  "bin": {
+    "svg-preview": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhouzi/svg-preview.git"
+  },
+  "bugs": "https://github.com/Zhouzi/svg-preview/issues",
+  "homepage": "https://github.com/Zhouzi/svg-preview",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-gitbook": "^2.0.3"
+  },
+  "dependencies": {
+    "get-port": "^3.2.0",
+    "opn": "^5.1.0"
+  }
+}
